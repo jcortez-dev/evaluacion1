@@ -1,0 +1,219 @@
+[
+  {
+    "name": "The Legend of Zelda: A Link to the Past & Four Swords",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Pokémon FireRed and LeafGreen",
+    "genres": [
+      "RPG"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Metroid Fusion",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Advance Wars",
+    "genres": [
+      "Turn-Based Strategy"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Mario Kart: Super Circuit",
+    "genres": [
+      "Racing"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Fire Emblem",
+    "genres": [
+      "Tactical RPG"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Castlevania: Aria of Sorrow",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Golden Sun",
+    "genres": [
+      "RPG"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "The Legend of Zelda: The Minish Cap",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Final Fantasy Tactics Advance",
+    "genres": [
+      "Tactical RPG"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 2",
+    "genres": [
+      "Sports"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Pokémon Ruby and Sapphire",
+    "genres": [
+      "RPG"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Sonic Advance",
+    "genres": [
+      "Platformer"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Super Mario Advance",
+    "genres": [
+      "Platformer"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Mega Man Zero",
+    "genres": [
+      "Action"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "WarioWare, Inc.: Mega Microgames!",
+    "genres": [
+      "Mini-Games"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Final Fantasy VI Advance",
+    "genres": [
+      "RPG"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Castlevania: Circle of the Moon",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "The Legend of Zelda: Link's Awakening DX",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Kingdom Hearts: Chain of Memories",
+    "genres": [
+      "Action RPG"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Mario & Luigi: Superstar Saga",
+    "genres": [
+      "RPG"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Advance Wars 2: Black Hole Rising",
+    "genres": [
+      "Turn-Based Strategy"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Metroid: Zero Mission",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Donkey Kong Country",
+    "genres": [
+      "Platformer"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Harvest Moon: Friends of Mineral Town",
+    "genres": [
+      "Simulation"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Final Fantasy Tactics",
+    "genres": [
+      "Tactical RPG"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Mega Man Battle Network",
+    "genres": [
+      "RPG"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Kirby & the Amazing Mirror",
+    "genres": [
+      "Platformer"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Tactics Ogre: The Knight of Lodis",
+    "genres": [
+      "Tactical RPG"
+    ],
+    "video_console": "GBA"
+  },
+  {
+    "name": "Mario Tennis: Power Tour",
+    "genres": [
+      "Sports"
+    ],
+    "video_console": "GBA"
+  }
+]

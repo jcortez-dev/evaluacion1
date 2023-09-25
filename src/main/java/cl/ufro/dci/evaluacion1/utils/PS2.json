@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Grand Theft Auto: San Andreas",
+    "genres": ["Action", "Adventure"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Final Fantasy X",
+    "genres": ["RPG"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Metal Gear Solid 3: Snake Eater",
+    "genres": ["Action", "Adventure"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "God of War",
+    "genres": ["Action"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Shadow of the Colossus",
+    "genres": ["Action", "Adventure"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Resident Evil 4",
+    "genres": ["Survival Horror"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Kingdom Hearts",
+    "genres": ["Action RPG"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Silent Hill 2",
+    "genres": ["Survival Horror"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Grand Theft Auto: Vice City",
+    "genres": ["Action", "Adventure"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Devil May Cry",
+    "genres": ["Action"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Gran Turismo 3: A-Spec",
+    "genres": ["Racing"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Ratchet & Clank",
+    "genres": ["Platformer"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Jak and Daxter: The Precursor Legacy",
+    "genres": ["Platformer"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Persona 4",
+    "genres": ["RPG"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Okami",
+    "genres": ["Action", "Adventure"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Bully",
+    "genres": ["Action", "Adventure"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 3",
+    "genres": ["Sports"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Resident Evil Code: Veronica X",
+    "genres": ["Survival Horror"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "ICO",
+    "genres": ["Action", "Adventure"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Kingdom Hearts II",
+    "genres": ["Action RPG"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Dragon Quest VIII: Journey of the Cursed King",
+    "genres": ["RPG"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "SoulCalibur II",
+    "genres": ["Fighting"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Final Fantasy XII",
+    "genres": ["RPG"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Devil May Cry 3: Dante's Awakening",
+    "genres": ["Action"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Sly Cooper and the Thievius Raccoonus",
+    "genres": ["Platformer"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Silent Hill 3",
+    "genres": ["Survival Horror"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "SSX Tricky",
+    "genres": ["Sports"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Prince of Persia: The Sands of Time",
+    "genres": ["Action", "Adventure"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Burnout 3: Takedown",
+    "genres": ["Racing"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Tony Hawk's Underground",
+    "genres": ["Sports"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Star Wars: Knights of the Old Republic",
+    "genres": ["RPG"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Metal Gear Solid 2: Sons of Liberty",
+    "genres": ["Action", "Adventure"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Grand Theft Auto III",
+    "genres": ["Action", "Adventure"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Onimusha 3: Demon Siege",
+    "genres": ["Action"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Max Payne",
+    "genres": ["Action"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Resident Evil Zero",
+    "genres": ["Survival Horror"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Tekken 5",
+    "genres": ["Fighting"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Kingdom Hearts: Chain of Memories",
+    "genres": ["Action RPG"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Mortal Kombat: Deception",
+    "genres": ["Fighting"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Final Fantasy X-2",
+    "genres": ["RPG"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Jak II",
+    "genres": ["Platformer"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Resident Evil Outbreak",
+    "genres": ["Survival Horror"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Dark Cloud 2",
+    "genres": ["Action RPG"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "God Hand",
+    "genres": ["Action"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Dragon Ball Z: Budokai Tenkaichi 3",
+    "genres": ["Fighting"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Sly 2: Band of Thieves",
+    "genres": ["Platformer"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Gran Turismo 4",
+    "genres": ["Racing"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Twisted Metal: Black",
+    "genres": ["Vehicular Combat"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "Yakuza",
+    "genres": ["Action-Adventure"],
+    "video_console": "PS2"
+  },
+  {
+    "name": "The Simpsons: Hit & Run",
+    "genres": ["Action", "Adventure"],
+    "video_console": "PS2"
+  }
+]

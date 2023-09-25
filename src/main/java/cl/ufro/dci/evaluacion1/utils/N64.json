@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Super Mario 64",
+    "genres": ["Platformer"],
+    "video_console": "N64"
+  },
+  {
+    "name": "The Legend of Zelda: Ocarina of Time",
+    "genres": ["Action", "Adventure"],
+    "video_console": "N64"
+  },
+  {
+    "name": "GoldenEye 007",
+    "genres": ["First-Person Shooter"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Mario Kart 64",
+    "genres": ["Racing"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Super Smash Bros.",
+    "genres": ["Fighting"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Donkey Kong 64",
+    "genres": ["Platformer"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Star Fox 64",
+    "genres": ["Rail Shooter"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Banjo-Kazooie",
+    "genres": ["Platformer"],
+    "video_console": "N64"
+  },
+  {
+    "name": "The Legend of Zelda: Majora's Mask",
+    "genres": ["Action", "Adventure"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Perfect Dark",
+    "genres": ["First-Person Shooter"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Diddy Kong Racing",
+    "genres": ["Racing"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Conker's Bad Fur Day",
+    "genres": ["Platformer"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Pokémon Stadium",
+    "genres": ["Strategy"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Mario Party",
+    "genres": ["Party"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Wave Race 64",
+    "genres": ["Racing"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Paper Mario",
+    "genres": ["RPG"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Turok: Dinosaur Hunter",
+    "genres": ["First-Person Shooter"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Kirby 64: The Crystal Shards",
+    "genres": ["Platformer"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Star Wars: Shadows of the Empire",
+    "genres": ["Action"],
+    "video_console": "N64"
+  },
+  {
+    "name": "F-Zero X",
+    "genres": ["Racing"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Yoshi's Story",
+    "genres": ["Platformer"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Tony Hawk's Pro Skater",
+    "genres": ["Sports"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Bomberman 64",
+    "genres": ["Action"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Resident Evil 2",
+    "genres": ["Survival Horror"],
+    "video_console": "N64"
+  },
+  {
+    "name": "1080° Snowboarding",
+    "genres": ["Sports"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Castlevania: Legacy of Darkness",
+    "genres": ["Action"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Jet Force Gemini",
+    "genres": ["Third-Person Shooter"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Mortal Kombat Trilogy",
+    "genres": ["Fighting"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Snowboard Kids",
+    "genres": ["Racing"],
+    "video_console": "N64"
+  },
+  {
+    "name": "Ogre Battle 64: Person of Lordly Caliber",
+    "genres": ["Strategy"],
+    "video_console": "N64"
+  }
+]
