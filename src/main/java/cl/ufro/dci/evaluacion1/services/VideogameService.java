@@ -8,8 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 @Service
 @RequiredArgsConstructor
@@ -35,5 +34,19 @@ public class VideogameService {
         Videogame[] videoGames = objectMapper.readValue(new File(pathname), Videogame[].class);
         return videogameRepository.saveAll(Arrays.asList(videoGames));
     }
+
+    public Videogame searchByName(String name){
+        return videogameRepository.findByName(name).get();
+    }
+
+    /*
+    public List<Videogame> searchRandomVideogames(String console){
+        List<Videogame> randomVideogames = new ArrayList<>();
+        Optional<Videogame> list = videogameRepository.findByVideo_console(console);
+        Random random = new Random();
+        list.add()
+        return
+    }
+    */
 
 }
