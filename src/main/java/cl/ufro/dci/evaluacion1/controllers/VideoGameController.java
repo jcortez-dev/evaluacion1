@@ -30,12 +30,12 @@ public class VideoGameController {
     /**
      * Finds two random video games based on the video console entered by the user
      *
-     * @param console_abreviation The abreviation of the video console
+     * @param consoleAbreviation The abreviation of the video console
      * @return Two random video games for the video console
      */
     @GetMapping("consoles/{console_abreviation}/random_games")
-    public Map<String, List<String>> findTwoVideoGames(@PathVariable String console_abreviation){
-        return videoGameService.validateVideoConsole(console_abreviation);
+    public Map<String, List<String>> findTwoVideoGames(@PathVariable("console_abreviation") String consoleAbreviation){
+        return videoGameService.validateVideoConsole(consoleAbreviation);
     }
 
     /**
