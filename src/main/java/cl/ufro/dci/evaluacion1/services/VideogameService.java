@@ -58,20 +58,24 @@ public class VideogameService {
         List<Videogame> consoleVideogames = videogameRepository.findByVideoConsole(console);
         return Arrays.asList(consoleVideogames.get(random.nextInt(consoleVideogames.size()-1)), consoleVideogames.get(random.nextInt(consoleVideogames.size()-1)));
     }
-    public Map<String, List<String>> searchRandomVideogames(String console) {
-        if (!(videogameRepository.findByVideoConsole(console).isEmpty())) {
-            List<Videogame> randomGames = generateRandomGames(console);
-            List<String> randomGamesAsString = new ArrayList<>();
-            randomGamesAsString.add(randomGames.get(0).getName() + " - " + randomGames.get(0).getVideoConsole() + " - " + String.join(", ", randomGames.get(0).getGenres()));
-            randomGamesAsString.add(randomGames.get(1).getName() + " - " + randomGames.get(1).getVideoConsole() + " - " + String.join(", ", randomGames.get(1).getGenres()));
+    public Map<String, List<String>> findRandomVideogames(String console) {
+        return (!videogameRepository.findByVideoConsole(console).isEmpty()) ?
+                jsonListParser(generateRandomVideogames(console)) :
+                jsonListParser(Arrays.asList("No existe consola o está mal escrita"));
+    }
 
-            Map<String, List<String>> response = new HashMap<>();
-            response.put("response", randomGamesAsString);
+    public List<String> generateRandomVideogames (String console){
+        List<Videogame> randomGames = generateRandomGames(console);
+        List<String> randomGamesAsString = new ArrayList<>();
+        randomGamesAsString.add(randomGames.get(0).getName() + " - " + randomGames.get(0).getVideoConsole() + " - " + String.join(", ", randomGames.get(0).getGenres()));
+        randomGamesAsString.add(randomGames.get(1).getName() + " - " + randomGames.get(1).getVideoConsole() + " - " + String.join(", ", randomGames.get(1).getGenres()));
+        return randomGamesAsString;
+    }
 
-            return response;
-        }
-
-        return null;
+    public Map<String, List<String>> jsonListParser(List <String> randomGamesAsString){
+        Map<String, List<String>> response = new HashMap<>();
+        response.put("response", randomGamesAsString);
+        return response;
     }
 
 

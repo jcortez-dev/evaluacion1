@@ -22,7 +22,7 @@ public class VideogameController {
 
     @GetMapping("consoles/{console_abreviation}/random_games")
     public Map<String, List<String>> findTwoVideogames(@PathVariable String console_abreviation){
-        return videogameService.searchRandomVideogames(console_abreviation);
+        return videogameService.findRandomVideogames(console_abreviation);
     }
 
     @GetMapping("games")
