@@ -24,10 +24,14 @@ These files are be saved in the following path:
 
 - The code runs in a Java IDE. The program will automatically load the data obtained from 3 JSON files into the database (H2).
 You can consult the complete list of data with the following route:
-> http://localhost:8080/
-
-- To consult a video game you must indicate the full name of the video game. You should keep in mind that, if the name has more than 1 word, you must add spaces between the words. The console and the genre will be displayed using the following path::
-> http://localhost:8080/games?name={name}
-
+```
+GET http://localhost:8080/
+```
+- To consult a video game you must indicate the full name of the video game. You should keep in mind that, if the name has more than 1 word, you must add spaces between the words. The console and the genre will be displayed using the following path:
+```
+GET http://localhost:8080/games?name={name}
+```
 - To make a recommendation of 2 video games for a console, you must enter one of the names of the consoles mentioned above. The name of the video game, the console and the genre will be displayed using the following path:
-> http://localhost:8080/consoles/{console_abreviation}/random_games
+```
+GET http://localhost:8080/consoles/{console_abreviation}/random_games
+```
