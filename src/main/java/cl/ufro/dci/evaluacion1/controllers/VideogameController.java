@@ -3,10 +3,7 @@ package cl.ufro.dci.evaluacion1.controllers;
 import cl.ufro.dci.evaluacion1.models.Videogame;
 import cl.ufro.dci.evaluacion1.services.VideogameService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.List;
@@ -20,7 +17,12 @@ public class VideogameController {
 
     @GetMapping("")
     public List<Videogame> loadVideogames() throws IOException {
-        return videogameService.loadVideogames();
+        return videogameService.getVideogames();
+    }
+
+    @GetMapping("consoles/{console_abreviation}/random_games")
+    public List<Videogame> findTwoVideogames(@PathVariable String console_abreviation){
+        return videogameService.searchRandomVideogames(console_abreviation);
     }
 
     @GetMapping("games")
