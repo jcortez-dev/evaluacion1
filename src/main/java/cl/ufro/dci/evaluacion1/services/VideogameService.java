@@ -53,23 +53,23 @@ public class VideogameService {
         return videogameRepository.findAll();
     }
 
-    public List<Videogame> generateRandomGames(String console){
+    public List<Videogame> generateRandomGames(String videoConsole){
         Random random = new Random();
-        List<Videogame> consoleVideogames = videogameRepository.findByVideoConsole(console);
+        List<Videogame> consoleVideogames = videogameRepository.findByVideoConsole(videoConsole);
         return Arrays.asList(consoleVideogames.get(random.nextInt(consoleVideogames.size()-1)), consoleVideogames.get(random.nextInt(consoleVideogames.size()-1)));
     }
-    public Map<String, List<String>> findRandomVideogames(String console) {
-        return (!videogameRepository.findByVideoConsole(console).isEmpty()) ?
-                jsonListParser(generateRandomVideogames(console)) :
+    public Map<String, List<String>> findRandomVideogames(String videoConsole) {
+        return (!videogameRepository.findByVideoConsole(videoConsole).isEmpty()) ?
+                jsonListParser(generateRandomVideogames(videoConsole)) :
                 jsonListParser(Arrays.asList("No existe consola o está mal escrita"));
     }
 
-    public List<String> generateRandomVideogames (String console){
-        List<Videogame> randomGames = generateRandomGames(console);
-        List<String> randomGamesAsString = new ArrayList<>();
-        randomGamesAsString.add(randomGames.get(0).getName() + " - " + randomGames.get(0).getVideoConsole() + " - " + String.join(", ", randomGames.get(0).getGenres()));
-        randomGamesAsString.add(randomGames.get(1).getName() + " - " + randomGames.get(1).getVideoConsole() + " - " + String.join(", ", randomGames.get(1).getGenres()));
-        return randomGamesAsString;
+    public List<String> generateRandomVideogames (String videoConsole){
+        List<Videogame> randomGames = generateRandomGames(videoConsole);
+        return Arrays.asList(
+                randomGames.get(0).getName() + " - " + randomGames.get(0).getVideoConsole() + " - " + String.join(", ", randomGames.get(0).getGenres()),
+                randomGames.get(1).getName() + " - " + randomGames.get(1).getVideoConsole() + " - " + String.join(", ", randomGames.get(1).getGenres())
+        );
     }
 
     public Map<String, List<String>> jsonListParser(List <String> randomGamesAsString){
