@@ -4,7 +4,6 @@ import cl.ufro.dci.evaluacion1.models.Videogame;
 import cl.ufro.dci.evaluacion1.repositories.VideogameRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.PostConstruct;
-import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -38,21 +37,42 @@ public class VideogameService {
         return videogameRepository.saveAll(Arrays.asList(videoGames));
     }
 
-    public Videogame searchByName(String name){
-        return videogameRepository.findByName(name)
-                .orElseThrow(() -> new EntityNotFoundException("No se encontró el videojuego con el nombre: " + name));
+    public Map<String, String> searchByName(String name){
+        return videogameRepository.findByName(name).isPresent() ?
+                jsonParser(videogameRepository.findByName(name).get().getVideoConsole() + " - " + String.join(" - ", videogameRepository.findByName(name).get().getGenres())) :
+                jsonParser("Juego no encontrado en nuestra base de datos");
+    }
+
+    public Map<String, String> jsonParser(String response){
+        Map<String, String> jsonResponse = new HashMap<>();
+        jsonResponse.put("response", response);
+        return jsonResponse;
     }
 
     public List<Videogame> getVideogames(){
         return videogameRepository.findAll();
     }
 
-    public List<Videogame> searchRandomVideogames(String console){
-        List<Videogame> randomVideogames = new ArrayList<>();
-        List<Videogame> list = videogameRepository.findByVideoConsole(console);
+    public List<Videogame> generateRandomGames(String console){
         Random random = new Random();
-        randomVideogames.add(list.get(random.nextInt(list.size())+1));
-        randomVideogames.add(list.get(random.nextInt(list.size())+1));
-        return randomVideogames;
+        List<Videogame> consoleVideogames = videogameRepository.findByVideoConsole(console);
+        return Arrays.asList(consoleVideogames.get(random.nextInt(consoleVideogames.size()-1)), consoleVideogames.get(random.nextInt(consoleVideogames.size()-1)));
     }
+    public Map<String, List<String>> searchRandomVideogames(String console) {
+        if (!(videogameRepository.findByVideoConsole(console).isEmpty())) {
+            List<Videogame> randomGames = generateRandomGames(console);
+            List<String> randomGamesAsString = new ArrayList<>();
+            randomGamesAsString.add(randomGames.get(0).getName() + " - " + randomGames.get(0).getVideoConsole() + " - " + String.join(", ", randomGames.get(0).getGenres()));
+            randomGamesAsString.add(randomGames.get(1).getName() + " - " + randomGames.get(1).getVideoConsole() + " - " + String.join(", ", randomGames.get(1).getGenres()));
+
+            Map<String, List<String>> response = new HashMap<>();
+            response.put("response", randomGamesAsString);
+
+            return response;
+        }
+
+        return null;
+    }
+
+
 }

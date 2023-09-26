@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Optional;
+import java.util.Map;
 
 @RestController
 @RequestMapping("api")
@@ -21,12 +21,12 @@ public class VideogameController {
     }
 
     @GetMapping("consoles/{console_abreviation}/random_games")
-    public List<Videogame> findTwoVideogames(@PathVariable String console_abreviation){
+    public Map<String, List<String>> findTwoVideogames(@PathVariable String console_abreviation){
         return videogameService.searchRandomVideogames(console_abreviation);
     }
 
     @GetMapping("games")
-    public Optional<Videogame> findByName(@RequestParam String name){
-        return Optional.ofNullable(videogameService.searchByName(name));
+    public Map<String, String> findByName(@RequestParam String name){
+        return videogameService.searchByName(name);
     }
 }
